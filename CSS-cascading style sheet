@@ -1,0 +1,474 @@
+CSS:- cascading style sheet
+Uses:-
+1)We can develop and create webpages as we want
+2)giving  styles for html elements(tags)
+3)Declaration of the webpage
+4)Event Handling
+5)Website templates or web layouts
+
+Types of CSS:-
+4types of styles
+1)Internal CSS
+In this type of stylesheets we are going to write the styles in the <head> section
+<head>
+CSS styles
+</head>
+
+2)External CSS
+In this type of stylesheets we are going to write the styles in a separate file and we have to save that file with .css extension
+.html file ==> html tag
+.css file ==>  which contains only styles
+<link> tag we are going to link the css and html files
+
+Advantages:-
+1)reusability
+2)security for the code
+3)Inline css:-
+here we are going to write the styles within the tag itself
+ex:
+<p style=”......”>
+<h1 style=”......”>
+4)Embed CSS:- (now a days no one using)
+Here we are going to use the styles in between the <head> and <body> tag.
+</head>
+CSS styles
+<body>
+
+Syntax for CSS styles:-
+
+<style type=”text/css”
+CSS Properties
+</style>
+
+Syntax for CSS Properties
+
+selecter
+{
+propertyname: value;
+propertyname: value;
+..................
+}
+
+selector ==> we are going to write tagnames, classname, and id names.
+propertyname ==> attributes
+value ==> value of the property
+e.g.:-
+body
+{
+color:blue;
+}
+
+3 concept which we are going to use in CSS when we are applying styles in the webpage
+1)classes(.)
+Same tag but multiple properties
+e.g.:-
+<h1>
+<h1>
+<h1>
+2)Grouping(,)
+Same property for multiple tags.
+e.g.:-
+p, h1,font,table
+{
+color:”blue”;
+}
+3)IDS(#)
+<div> tag ==>division tag by using this <div> tag only  we are going to develop the webpage
+
+Body tag Properties or Background Properties
+<html>
+<head>
+<title>Background properties</title>
+<style type=”text/css”>
+
+body
+{
+color:red;
+background-color:lightgreen;
+background-image:url(“1234.jpg”);
+background-repeat:no-repeat;
+/* repeat, no-repeat, repeat-x, repeat-y */
+/* this is the comment it won’t show on the screen */
+background-position:bottom right;
+/* top/center/bottom left/right/center, xpos ypos */
+background-attachment:fixed
+/* fixed/scroll */
+}
+
+</style>
+</head>
+<body> 
+
+</body>
+</html>
+
+Heading Properties
+<html>
+<head>
+<title>Heading properties</title>
+<style type=”text/css”>
+h1
+{
+color:blue;
+text-align:center;
+text-decoration:underline;
+text-transform:uppercase;
+}
+</style>
+</head>
+<body> 
+<h1>apes  comPuTeRs</h1>
+<h1>apes  comPuTeRs</h1>
+<h1>apes  comPuTeRs</h1>
+</body>
+</html>
+
+
+<<<<some thing should be here>>>>>>
+
+
+Paragraph Properties
+<html>
+<head>
+<title>Paragraph properties</title>
+<style type=”text/css”>
+p
+{
+color:blue;
+font-size:22px;
+text-align:justify;
+text-indent:300px;
+line-height:30px;
+border:3px solid red;
+/*solid, dashed, dotted, double, groove, inset, outset */
+margin:30px 20px 0px 40px;
+padding:40px 20px 10px 30px;
+/* margin means gap between the page and border 
+padding means gap between the text and border */
+}
+</style>
+</head>
+<body>
+<p>
+Here are some text.
+</p>
+</body>
+</html>
+
+Scrollbar
+<html>
+<head>
+<title>Scrollbar properties</title>
+<style type=”text/css”>
+body
+{
+/* supports only in internet Explorer */
+scrollbar-arrow-color:red;
+scrollbar-face-color:blue;
+scrollbar-track-color:green;
+scrollbar-shadow-color:orange;
+
+}
+</style>
+</head>
+<body>
+<img src=”111.jpg”><br><br>
+<img src=”111.jpg”><br><br>
+<img src=”111.jpg”><br><br>
+<img src=”111.jpg”><br><br>
+<img src=”111.jpg”><br><br>
+<img src=”111.jpg”><br><br>
+<img src=”111.jpg”><br><br>
+<img src=”111.jpg”><br><br>
+</body>
+</html>
+
+List Tag Properties
+
+<html>
+<head>
+<title>List Tag Properties</title>
+<style type=”text/css”>
+
+</style>
+</head>
+<body>
+
+<ol>
+<li>Rose</li>
+<li>Lily</li>
+<li>Lotus</li>
+<li>Jasmine</li>
+</ol>
+
+<ul>
+<li>Rose</li>
+<li>Lily</li>
+<li>Lotus</li>
+<li>Jasmine</li>
+</ul>
+
+<ul>
+<li>Rose</li>
+<li>Lily</li>
+<li>Lotus</li>
+<li>Jasmine</li>
+</ul>
+
+</body>
+</html>
+
+Table tag properties
+
+border
+caption
+width
+height
+alignment
+
+<html>
+<head>
+<title>Sample Table</title>
+<style>
+table,tr,td,th
+{
+border:3px solid red;
+border-collapse:collapse;
+}
+
+caption
+{
+font-size:24px; 
+font-weight:bold
+font-style:italic
+color:blue;
+}
+table
+{
+width:500px;
+height:400px;
+caption-side:bottom; /* bottom/top */
+}
+tr:nth-child(even)
+{
+background-color:lightgreen;
+}
+
+tr:nth-child(odd)
+{
+background-color:lightblue;
+}
+
+tr:hover
+{
+background-color:orange
+font-weight:bold;
+font-size:20px;
+}
+
+</style>
+</head>
+<body>
+
+<table>
+
+<caption>Simple Caption</caption>
+
+<tr>
+<th>S.No</th>
+<th>Name</th>
+<th>Course</th>
+<th>Marks</th>
+</tr>
+
+<tr>
+<td>101</td>
+<td>Ramu</td>
+<td>HTML</td>
+<td>88</td>
+</tr>
+
+</table>
+</body>
+</html>
+
+Div Tag Example
+<html>
+<head>
+<title>Div Tag Example</title>
+</head>
+<body>
+<div style=”color:blue; font-size:24px; text-align:justify; position:absolute; top:10px; left:20px; right:250px;”>
+<p>
+
+here some text
+
+</p>
+</div>
+
+<div style=”position:absolute; top:10px; right:10px;>
+<img src=”111.jpg” width=250 height=250>
+</div>
+<div style=”position:absolute; top:350px;>
+<img src=”111.jpg” width=250 height=250>
+</div>
+<div style=”color:green; font_size:20px; text-align:justify; position:absolute; top:350px; left:20px; right:10px;>
+<img src=”111.jpg” width=250 height=250>
+</div>
+
+</body>
+</html>
+
+Div Tag
+
+<html>
+<head>
+<title>This is Div tag</title>
+<style type=”text/css”>
+#div1
+{
+
+position:absolute;
+top:20px;
+left:20px;
+width:200px;
+height:80px;
+background-color:lightgreen;
+z-index:3;
+}
+
+#div2
+{
+
+position:absolute;
+top:50px;
+left:50px;
+width:200px;
+height:80px;
+background-color:lightgreen;
+z-index:2;
+}
+
+#div3
+{
+
+position:absolute;
+top:80px;
+left:80px;
+width:200px;
+height:80px;
+background-color:lightgreen;
+z-index:1;
+}
+
+</style>
+</head>
+<body>
+<div id=”div1”>This is div tag 1</div>
+<div id=”div2”>This is div tag 2</div>
+<div id=”div3”>This is div tag 3</div>
+</body>
+</html>
+
+Spantag
+<html>
+<head>
+<title>Span tag</title>
+<style type=”text/css”>
+div, span
+{
+background-color:lightgreen;
+border:3px solid red;
+}
+</style>
+</head>
+<body>
+<div>this is sample div tag</div>
+<br><br>
+<span> this is sample span tag</span>
+</body>
+</html>
+
+Display
+<html>
+<head>
+<title>Display tag</title>
+<style type=”text/css”>
+
+li
+{
+display:inline;
+list-style-type:none;
+}
+
+a
+{
+text-decoration:none;
+display:block;
+background-color:lightgreen;
+width:100px;
+height:50px;
+text-align:center;
+}
+h1.x
+{
+ display:none; 
+/* visibility:hidden; */
+/* for display:none  it will remove the space occupied by the tag  but whereas the visibility property will not remove the space so it will be just hidden*/
+
+}
+</style>
+</head>
+<body>
+<ul>
+<li>HOME</li>
+<li>ABOUT</li>
+<li>SERVICES</li>
+<li>CONTACT</li>
+</ul>
+
+<br>
+
+<a href=”http://www.durgajobs.com”>
+CLICK HERE
+</a>
+
+<h1 class=”x”>WelCome</h1>
+<h1>How are you</h1>
+
+</body>
+</html>
+
+width vs max width
+<html>
+<head>
+<title>width vs max width</title>
+<style type=”text/css”>
+#x
+{
+width:600px;
+text-align:justify;
+border:2px solid red;
+}
+#y
+{
+max-width:600px; /*for responsive website design for mobile friendly site */
+text-align:justify;
+border:2px solid red;
+}
+</style>
+</head>
+<body>
+
+<div id=”x”>
+some text here
+</div>
+
+<br><br>
+
+<div id=”y”>
+some text here
+</div>
+
+</body>
+</html>

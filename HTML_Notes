@@ -1,0 +1,629 @@
+<br> ==> break the line.
+&nbsp; ==> non breakable space(character entities or properties)
+&copy; ==> copyright symbol
+
+Body Tag properties
+<html>
+<head>
+<title> Body Tag Properties</title>
+</head>
+<body bgcolor=red or “#eeff44” background= “1234.jpg” or “file:///D:/1234.jpg”
+text=”yellow” > 
+</body>
+</html>
+
+bgcolor = background color
+2 ways
+1)color name ==> red, green, blue
+2)color code ==> #6digitscode
+
+background ==> to insert image in the background
+Filename --> same location
+path -->different location
+
+text ==> to give text color
+
+Text Properties:- are 5 types
+1)Headings
+2)General text tags
+3)font properties
+4)paragraph
+5)Text Reverse
+
+1)Headings
+<html>
+<head>
+<title> Heading Tags</title>
+</head>
+<body  text=”blue”> 
+<h1 align=“center”>WelCome</h1>
+<h2 align=”right”>WelCome</h2>
+<h3>WelCome</h3>
+<h4>WelCome</h4>
+<h5>WelCome</h5>
+<h6>WelCome</h6>
+</body>
+</html>
+align ==> left/right/center
+bold and break are common
+h1 ==> biggest heading
+h6 ==> smallest heading
+2)General text tags
+<html>
+<head>
+<title> Heading Tags</title>
+</head>
+<body> 
+<b> Durga Software Solutions</b><br>
+<strong>Durga Software Solutions</strong><br>
+<i>Durga Software Solutions</i><br>
+<em>Durga Software Solutions</em><br>
+
+<u>Durga Software Solutions</u>
+<s>Durga Software Solutions</s>
+<b><i><u>Durga Software Solutions</u></i></b><br>
+
+<big>Durga Software Solutions</big><br>
+<small>Durga Software Solutions</small><br>
+<code>Durga Software Solutions</code><br>
+
+H<sub>2</sub>o<br>    (H2O)
+(a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab<br>        ((a+b)2=a2+b2+2ab)
+<pre>
+Name                Mobile                  City
+--------------------------------------------------------------
+Ramu               8802844545        Hyderabad
+Ravi                 9164565657        Chennai
+Raju                 9077955757        Mumbai
+---------------------------------------------------------------
+</pre>
+
+</body>
+</html>
+
+3)Font properties
+<html>
+<head>
+<title>Font Tag</title>
+</head>
+<body> 
+
+<center>
+<font size=7 color=”red” face=”Helvetica” >
+<u>Durga Software Solutions</u>
+</font>
+<hr size=5 color=”blue” width=400>
+</center>
+
+</body>
+</html>
+font max of size is 7 only
+
+4)paragraph
+<html>
+<head>
+<title> paragraph</title>
+</head>
+<body> 
+
+<font size=5 color=”green” >
+<p align=’center’ or ‘right’ or ’justify’> 
+we need to provide paragraph here 
+</p>
+
+</body>
+</html>
+
+justify is the equal 
+
+5)Text Reverse
+<html>
+<head>
+<title> Text Reverse</title>
+</head>
+<body> 
+
+<bdo dir=“rtl”>  
+subbuBandi
+</bdo>
+
+</body>
+</html>
+
+bro ==> bidirectional object
+dir==> direction
+ltr ==> left to right
+rtf ==> right to left
+
+Multimedia tags or graphical tags are 5 types
+1)Image
+2)Video
+3)Audio
+4)Flash Files
+5)Marquee
+
+1)Images
+<html>
+<head>
+<title> Image tag</title>
+</head>
+<body> 
+
+<img src=”1234.jpg” (or “path and file name”) width=”450” hight=”350” 
+border=5 alt=”Man with phone” hspace=200 vspace=100>
+
+</body>
+</html>
+alt ==> alternative image 
+hspace ==> horizontal space
+vspace ==> vertical space
+
+2)Video
+<html>
+<head>
+<title> Video tag</title>
+</head>
+<body> 
+
+// this is support for only Internet Explore
+<img dynsrc=”path of the video” width=300 height=250 start=”mouseover” loop=4>  
+<br><br>
+
+<embed src=”path of the video and video file name” width=300 height=250>
+
+</body>
+</html>
+
+dynsrc ==> dynamic source
+
+3)Audio
+<html>
+<head>
+<title> Audio tag properties</title>
+</head>
+<body> 
+
+<bgsound src=”path of the Audio and Audio file name” >
+
+<embed src=”path of the Audio and Audio file name” >
+
+</body>
+</html>
+
+bgsound = background sound
+
+4)Flash Files
+<html>
+<head>
+<title> Flash Files</title>
+</head>
+<body> 
+
+Flash files generally will be in .swf format
+<br><br>
+
+<embed src=”path of the flash file and file name” width=550 height=400>
+
+</body>
+</html>
+
+5)Marquee is used to insert moving object in the webpage. 
+<html>
+<head>
+<title> Marquee Tag</title>
+</head>
+<body> 
+
+<marquee bgcolor=”lightgreen” direction=”right”
+behavior=”scroll” scrollamount=”20” loop=4>
+<font size=6 color=”red”> WelCome</font>
+</marquee>
+
+</body>
+</html>
+ 
+direction ==> left/right/up/down
+behavior ==> scroll/slide/alternate
+scrollamount ==> speed of the marquee (default value is 8)
+
+Linking Tag:     to give link between webpage, 
+                          to give link to files(images,.pdf,.doc),
+                          to give linking from one point to another point(samepage linking).
+1)link between webpage
+<html>
+<head>
+<title>Home Page</title>
+</head>
+<body> 
+
+<h2>
+<a href=”home.html”>
+HOME
+</a>
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+
+<a href=”about.html”>
+ABOUT
+</a>
+
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+
+<a href=”contact.html”>
+CONTACT
+</a>
+
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+</h2>
+<hr size=5 color=”brown”>
+<font size=5 color=”navy”>
+<p align=”justify”>
+some paragraph.
+</p>
+</font>
+
+<center>
+<img src=”file.jpg” width=400 height=300>
+</center>
+</body>
+</html>
+
+Anchor Tag
+href ==> hyper reference
+
+2)link to files(images,.pdf,.doc)
+<html>
+<head>
+<title> Linking to Files</title>
+</head>
+<body> 
+
+<a  href=”1234.jpg” or “1234.pdf” or “1234.doc” target=”_new” or “_blank” or “_self” 
+title=”Sample Linking”>
+<h2>CLICK  HERE</h2>
+</a>
+
+</body>
+</html>
+
+3)linking from one point to another point(same page linking).
+<html>
+<head>
+<title>point to point Linking</title>
+</head>
+<body> 
+
+<a name=”a1” href=”#a2”>
+<h2>BOTTOM</h2>
+</a>
+
+<img src=”1234.jpg”><br><br>
+<img src=”1234.jpg”><br><br>
+<img src=”1234.jpg”><br><br>
+<img src=”1234.jpg”><br><br>
+<img src=”1234.jpg”><br><br>
+<img src=”1234.jpg”><br><br>
+<img src=”1234.jpg”><br><br>
+<img src=”1234.jpg”><br><br>
+<img src=”1234.jpg”><br><br>
+<img src=”1234.jpg”><br><br>
+<img src=”1234.jpg”><br><br>
+
+<a name=”a2” href=”#a1”>
+<h2>TOP</h2>
+</a>
+
+</body>
+</html>
+Lists properties: to arrange the data in a proper order/manner so we use lists. 
+3 types of lists	
+1)ordered list
+2)unordered list
+3)definition list
+
+1)Ordered List
+<html>
+<head>
+<title>Ordered List</title>
+</head>
+<body> 
+
+<ol  type=”1” or ”A” or “a” “I” or “i” start=10>
+<li>HTML</li>
+<li>CSS</li>
+<li type=”A”>JavaScript</li>
+<li>PHP</li>
+<li type”I”>FLASH</li>
+</ol>
+
+</body>
+</html>
+li==> list items
+ol ==> order list
+
+2)Unordered List
+<html>
+<head>
+<title>Unordered List</title>
+</head>
+<body> 
+
+<ul type=”disc” or ”circl” or “square”>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>PHP</li>
+<li>FLASH</li>
+</ul>
+
+</body>
+</html>
+
+3)Definition List
+<html>
+<head>
+<title>Definition List</title>
+</head>
+<body> 
+
+<dl>
+<dt>HTML</dt>
+<dd>Definition Description</dd>
+<dt>CSS</dt>
+<dd>Cascading Style Sheets</dd>
+<dt>RAM</dt>
+<dd>Random Access Memory</dd>
+</dl>
+
+</body>
+</html>
+
+dt ==> definition term
+dd ==> definition description
+
+Tables: to store the data in a form of table means rows and columns.
+
+<html>
+<head>
+<title>Table properties</title>
+</head>
+<body> 
+
+<table bgcolor=”lightgreen” border=3 bordercolor=”blue” width=450 height=350 
+align=”center” or “right” or “left” cellpadding=20  cellspacing=2>
+
+<caption align=”bottom” or “top”>
+<font size=6 color=”red”>
+Student Details
+</font>
+</caption>
+
+<tr>
+<td colspan/rowspan=5 align=”center”>
+<font size=6 color=”red”>
+Student Details
+</font>
+</td>
+</tr>
+
+<tr>
+<th>S.No</th>
+<th>Name</th>
+<th>Course</th>
+<th>Marks</th>
+<th>City</th>
+</tr>
+
+<tr>
+<td>101</td>
+<td>Ramu</td>
+<td bgcolor=”yellow”>HTML</td>
+<td>88</td>
+<td>Hyderabad</td>
+</tr>
+
+<tr>
+<td>102</td>
+<td>Bale</td>
+<td>CSS</td>
+<td>80</td>
+<td>Chennai</td>
+</tr>
+
+<tr>
+<td>103</td>
+<td>Abhi</td>
+<td>JavaScript</td>
+<td>90</td>
+<td>Mumbai</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+
+tr ==> table row
+th ==> table heading
+td ==> table data
+
+Frames:- to divide the webpage into parts or blocks
+we can divide the page into rows and columns
+note: we should not use body tag inside the frames(now a days no one using)
+<html>
+<head>
+<titel>Frames Properties</title>
+</head>
+<frameset rows=”10%,80%,10%” bordercolor=”green”>
+<frame src=”link.html”>
+
+<frameset cols=”30%,40%,30%”>
+<frame noresize name=”f1” src=>
+<frame noresize name=”f2” src=>
+<frame noresize name=”f3” src=>
+</frameset>
+
+<frame src=>
+</frameset>
+</html>
+
+Forms:-
+<input>
+<textarea>
+<select>
+
+<html>
+<head>
+<title>Html forms</title>
+</head>
+<body bgcolor=”lightgreen”>
+<center>
+<font size=7 color=”red”>
+Application Form
+</font>
+<hr size=5 color=”blue” width=400>
+</center>
+
+<form name=”f1”>
+<table align=”center”>
+
+<tr>
+<td>User Name</td>
+<td><input type=”text” name=”t1” size=20 maxlength=6></td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td><input type=”password” name=”t2” ></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td><input type=”radio” name=”r1” >Male
+<input type=”radio” name=”r1” >Female</td>
+</tr>
+
+<tr>
+<td>Languages</td>
+<td><input type=”checkbox” name=”cb1” checked=”checked>Telugu
+<input type=”checkbox” name=”cb1” >Hindi
+<input type=”checkbox” name=”cb1” >English
+</tr>
+
+<tr>
+<td>Address</td>
+<td><textarea name=”t3” rows=5 cols=20>
+</textarea></td>
+</tr>
+
+<tr>
+<td>City</td>
+<td><select name=”c1”>
+<option>----select----
+<option>Hyderabad
+<option>Chennai
+<option>Mumbai
+<option>Bangalore
+<option>Delhi
+</select>
+</tr>
+
+<tr>
+<td>Date of Birth</td>
+<td><select name=”day”>
+<option>1
+<option>2
+<option>3
+<option>4
+<option>5
+<option>6
+<option>7
+<option>8
+<option>9
+<option>10
+</select>
+
+<select name=”month”>
+<option>
+<option>Jan
+<option>Feb
+<option>Mar
+<option>Apr
+<option>May
+<option>Jun
+<option>Jul
+<option>Aug
+<option>Sep
+<option>Oct
+<option>Nov
+<option>Dec
+</select>
+</tr>
+
+<select name=”year”>
+<option>
+<option>2010
+<option>2009
+<option>2008
+<option>2007
+<option>2006
+<option>2005
+<option>2004
+<option>2003
+<option>2002
+<option>2001
+<option>2000
+</select></td>
+</tr>
+
+<tr>
+<td>Resume</td>
+<td><input type=”file” name=”res” >
+</tr>
+
+<tr>
+<td colspan=2 align=”center”>
+<input type=”submit” name=”b1” value=”Register” >
+<input type=”reset” name=”b1” value=”Clear” >
+<input type=”button” name=”b1” value=”Sample” >
+</tr>
+
+</table>
+</form>
+</body>
+</html>
+
+DOCTYPE DECLARATION:-(DTD)
+It is an instruction to the browser.
+It is not a tag.
+It will that which version of markup language we are using in the webpage.
+HTML 4
+In HTML 4 we have 3 doctype declaration(dtd)
+1)HTML 4.01 Strict
+In that page i cannot use <frames>,<font>,<center> tags
+2)HTML 4.01 Transitional
+I cannot use only <frames>
+3)HTML 4.01 Frameset
+Every tag will work
+
+Now a days we are going to use HTML 5 doctype
+<!DOCTYPE html>
+
+HTML Meta tags:-
+syntax:-
+<meta name=” ” content=” “>
+
+Note: we should write the meta tags compulsory in the <head> section only.
+
+Meta gives the information about the webpage to the search engines(google, bing, yandex(Russia), byto(China))
+
+1)Title of the page
+<meta name=”title” content=”Durga soft solution--No1 Institution”>
+2)Description:-
+<meta name=”description” content=”..........”>
+3)Keyword:-
+<meta name=”keywords” content=” Telugu songs, Telugu movie songs“>
+4)Author Information:-
+<meta name=”author” content=”Ranjit Kumar (Web Designer)
