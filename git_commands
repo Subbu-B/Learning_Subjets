@@ -1,0 +1,43 @@
+Joe:
+====
+
+// in the command line
+1)go to perticular folder where you want to download
+// in the web page
+2)get the url of the git page
+// it will download to (step 1) perticular folder (your desire folder)
+3)git clone https://github.com/Subbu-B/Learning_Subjets.git 
+
+// code file in the folder 
+4)now you  can modify code and save it.
+
+// in the command line
+// check the status
+5) git status (if the file is not uploaded to git then it show in the red color)
+// add the file to git hub web page.
+6)git add file_name (like grocery.html)
+// commit the file and add comments also.
+7)git commit -m "comment here"
+// push the code after commit
+8) git push 
+
+Sarah
+=====
+// follow above steps from 1 to 3
+  or
+// if already have file in our system then update the file
+1) git pull
+// check the file and save the file if you modified
+
+// checked the status wheather file uploaded or not
+2) git status
+// if not uploaded the file then do it
+3) git add -A
+
+// commit the file and add comments also.
+4) git commit -m "comment here"
+
+// push the code after commit
+5) git push 
+
+

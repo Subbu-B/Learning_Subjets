@@ -1,0 +1,20 @@
+JavaScript provides 3 places to put the JavaScript code: within body tag, within head tag and external JavaScript file.
+
+Let’s create the first JavaScript example.
+
+<script type="text/javascript">  
+document.write("JavaScript is a simple language for javatpoint learners");  
+</script>  
+
+The script tag specifies that we are using JavaScript.
+
+The text/javascript is the content type that provides information to the browser about the data.
+
+The document.write() function is used to display dynamic content through JavaScript. We will learn about document object in detail later.
+
+3 Places to put JavaScript code
+
+Between the body tag of html
+Between the head tag of html
+In .js file (external javaScript)
+
