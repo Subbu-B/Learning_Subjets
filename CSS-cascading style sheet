@@ -1,5 +1,7 @@
 CSS:- cascading style sheet
+
 Uses:-
+
 1)We can develop and create webpages as we want
 2)giving  styles for html elements(tags)
 3)Declaration of the webpage
@@ -7,7 +9,9 @@ Uses:-
 5)Website templates or web layouts
 
 Types of CSS:-
+
 4types of styles
+
 1)Internal CSS
 In this type of stylesheets we are going to write the styles in the <head> section
 <head>
@@ -15,23 +19,31 @@ CSS styles
 </head>
 
 2)External CSS
+
 In this type of stylesheets we are going to write the styles in a separate file and we have to save that file with .css extension
 .html file ==> html tag
 .css file ==>  which contains only styles
 <link> tag we are going to link the css and html files
 
 Advantages:-
+
 1)reusability
+
 2)security for the code
+
 3)Inline css:-
 here we are going to write the styles within the tag itself
+
 ex:
 <p style=”......”>
 <h1 style=”......”>
+
 4)Embed CSS:- (now a days no one using)
 Here we are going to use the styles in between the <head> and <body> tag.
+
 </head>
 CSS styles
+
 <body>
 
 Syntax for CSS styles:-
@@ -59,23 +71,29 @@ color:blue;
 }
 
 3 concept which we are going to use in CSS when we are applying styles in the webpage
+
 1)classes(.)
 Same tag but multiple properties
+
 e.g.:-
 <h1>
 <h1>
 <h1>
+
 2)Grouping(,)
 Same property for multiple tags.
+
 e.g.:-
 p, h1,font,table
 {
 color:”blue”;
 }
+
 3)IDS(#)
 <div> tag ==>division tag by using this <div> tag only  we are going to develop the webpage
 
 Body tag Properties or Background Properties
+
 <html>
 <head>
 <title>Background properties</title>
@@ -101,6 +119,7 @@ background-attachment:fixed
 
 </body>
 </html>
+
 
 Heading Properties
 <html>
@@ -128,6 +147,7 @@ text-transform:uppercase;
 
 
 Paragraph Properties
+
 <html>
 <head>
 <title>Paragraph properties</title>
@@ -140,11 +160,15 @@ text-align:justify;
 text-indent:300px;
 line-height:30px;
 border:3px solid red;
+
 /*solid, dashed, dotted, double, groove, inset, outset */
+
 margin:30px 20px 0px 40px;
 padding:40px 20px 10px 30px;
+
 /* margin means gap between the page and border 
 padding means gap between the text and border */
+
 }
 </style>
 </head>
@@ -155,7 +179,9 @@ Here are some text.
 </body>
 </html>
 
+
 Scrollbar
+
 <html>
 <head>
 <title>Scrollbar properties</title>
@@ -182,6 +208,7 @@ scrollbar-shadow-color:orange;
 <img src=”111.jpg”><br><br>
 </body>
 </html>
+
 
 List Tag Properties
 
@@ -218,6 +245,7 @@ List Tag Properties
 </body>
 </html>
 
+
 Table tag properties
 
 border
@@ -243,6 +271,7 @@ font-weight:bold
 font-style:italic
 color:blue;
 }
+
 table
 {
 width:500px;
@@ -292,7 +321,9 @@ font-size:20px;
 </body>
 </html>
 
+
 Div Tag Example
+
 <html>
 <head>
 <title>Div Tag Example</title>
@@ -319,12 +350,14 @@ here some text
 </body>
 </html>
 
+
 Div Tag
 
 <html>
 <head>
 <title>This is Div tag</title>
 <style type=”text/css”>
+
 #div1
 {
 
@@ -370,7 +403,9 @@ z-index:1;
 </body>
 </html>
 
+
 Spantag
+
 <html>
 <head>
 <title>Span tag</title>
@@ -389,7 +424,9 @@ border:3px solid red;
 </body>
 </html>
 
+
 Display
+
 <html>
 <head>
 <title>Display tag</title>
@@ -439,7 +476,9 @@ CLICK HERE
 </body>
 </html>
 
+
 width vs max width
+
 <html>
 <head>
 <title>width vs max width</title>
