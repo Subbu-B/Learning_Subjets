@@ -12,7 +12,9 @@ text=”yellow” >
 </body>
 </html>
 
+
 bgcolor = background color
+
 2 ways
 1)color name ==> red, green, blue
 2)color code ==> #6digitscode
@@ -23,12 +25,15 @@ path -->different location
 
 text ==> to give text color
 
+
+
 Text Properties:- are 5 types
 1)Headings
 2)General text tags
 3)font properties
 4)paragraph
 5)Text Reverse
+
 
 1)Headings
 <html>
@@ -44,11 +49,15 @@ Text Properties:- are 5 types
 <h6>WelCome</h6>
 </body>
 </html>
+
 align ==> left/right/center
 bold and break are common
 h1 ==> biggest heading
 h6 ==> smallest heading
+
+
 2)General text tags
+
 <html>
 <head>
 <title> Heading Tags</title>
@@ -81,7 +90,9 @@ Raju                 9077955757        Mumbai
 </body>
 </html>
 
+
 3)Font properties
+
 <html>
 <head>
 <title>Font Tag</title>
@@ -97,9 +108,12 @@ Raju                 9077955757        Mumbai
 
 </body>
 </html>
+
 font max of size is 7 only
 
+
 4)paragraph
+
 <html>
 <head>
 <title> paragraph</title>
@@ -116,7 +130,9 @@ we need to provide paragraph here
 
 justify is the equal 
 
+
 5)Text Reverse
+
 <html>
 <head>
 <title> Text Reverse</title>
@@ -142,7 +158,9 @@ Multimedia tags or graphical tags are 5 types
 4)Flash Files
 5)Marquee
 
+
 1)Images
+
 <html>
 <head>
 <title> Image tag</title>
@@ -158,7 +176,9 @@ alt ==> alternative image
 hspace ==> horizontal space
 vspace ==> vertical space
 
+
 2)Video
+
 <html>
 <head>
 <title> Video tag</title>
@@ -176,7 +196,9 @@ vspace ==> vertical space
 
 dynsrc ==> dynamic source
 
+
 3)Audio
+
 <html>
 <head>
 <title> Audio tag properties</title>
@@ -192,7 +214,9 @@ dynsrc ==> dynamic source
 
 bgsound = background sound
 
+
 4)Flash Files
+
 <html>
 <head>
 <title> Flash Files</title>
@@ -207,7 +231,9 @@ Flash files generally will be in .swf format
 </body>
 </html>
 
+
 5)Marquee is used to insert moving object in the webpage. 
+
 <html>
 <head>
 <title> Marquee Tag</title>
@@ -226,10 +252,14 @@ direction ==> left/right/up/down
 behavior ==> scroll/slide/alternate
 scrollamount ==> speed of the marquee (default value is 8)
 
+
 Linking Tag:     to give link between webpage, 
                           to give link to files(images,.pdf,.doc),
                           to give linking from one point to another point(samepage linking).
+
+
 1)link between webpage
+
 <html>
 <head>
 <title>Home Page</title>
@@ -270,10 +300,13 @@ some paragraph.
 </body>
 </html>
 
+
 Anchor Tag
 href ==> hyper reference
 
+
 2)link to files(images,.pdf,.doc)
+
 <html>
 <head>
 <title> Linking to Files</title>
@@ -288,7 +321,9 @@ title=”Sample Linking”>
 </body>
 </html>
 
+
 3)linking from one point to another point(same page linking).
+
 <html>
 <head>
 <title>point to point Linking</title>
@@ -317,13 +352,16 @@ title=”Sample Linking”>
 
 </body>
 </html>
+
 Lists properties: to arrange the data in a proper order/manner so we use lists. 
 3 types of lists	
 1)ordered list
 2)unordered list
 3)definition list
 
+
 1)Ordered List
+
 <html>
 <head>
 <title>Ordered List</title>
@@ -343,7 +381,9 @@ Lists properties: to arrange the data in a proper order/manner so we use lists.
 li==> list items
 ol ==> order list
 
+
 2)Unordered List
+
 <html>
 <head>
 <title>Unordered List</title>
@@ -361,7 +401,9 @@ ol ==> order list
 </body>
 </html>
 
+
 3)Definition List
+
 <html>
 <head>
 <title>Definition List</title>
@@ -382,6 +424,7 @@ ol ==> order list
 
 dt ==> definition term
 dd ==> definition description
+
 
 Tables: to store the data in a form of table means rows and columns.
 
@@ -445,13 +488,17 @@ Student Details
 </body>
 </html>
 
+
 tr ==> table row
 th ==> table heading
 td ==> table data
 
+
 Frames:- to divide the webpage into parts or blocks
 we can divide the page into rows and columns
 note: we should not use body tag inside the frames(now a days no one using)
+
+
 <html>
 <head>
 <titel>Frames Properties</title>
@@ -473,6 +520,7 @@ Forms:-
 <input>
 <textarea>
 <select>
+
 
 <html>
 <head>
@@ -595,16 +643,21 @@ Application Form
 </body>
 </html>
 
+
 DOCTYPE DECLARATION:-(DTD)
+
 It is an instruction to the browser.
 It is not a tag.
 It will that which version of markup language we are using in the webpage.
 HTML 4
 In HTML 4 we have 3 doctype declaration(dtd)
+
 1)HTML 4.01 Strict
 In that page i cannot use <frames>,<font>,<center> tags
+
 2)HTML 4.01 Transitional
 I cannot use only <frames>
+
 3)HTML 4.01 Frameset
 Every tag will work
 
@@ -621,9 +674,12 @@ Meta gives the information about the webpage to the search engines(google, bing,
 
 1)Title of the page
 <meta name=”title” content=”Durga soft solution--No1 Institution”>
+
 2)Description:-
 <meta name=”description” content=”..........”>
+
 3)Keyword:-
 <meta name=”keywords” content=” Telugu songs, Telugu movie songs“>
+
 4)Author Information:-
 <meta name=”author” content=”Ranjit Kumar (Web Designer)
